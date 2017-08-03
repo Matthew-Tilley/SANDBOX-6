@@ -1,6 +1,25 @@
 /*THESE ENTRIES ARE PRIMARILY FOR PRACTICE STUFF
 RELATED TO "A SMARTER WAY TO LEARN JAVASCRIPT"*/
 
+
+
+/*CHAPTER 13
+var age = prompt("Enter your age:");
+var height = prompt("Enter your height in inches");
+
+if (age > 15 && height > 60)
+	{
+		alert("Welcome...you may ride the roller-coaster.");
+	}
+
+else
+	{
+		alert("Sorry...you may not ride the roller-coaster.");
+	}*/
+
+
+
+/*CHAPTER 12
 var age = prompt("Enter your age.");
 
 if (age % 2 == 0)
@@ -11,9 +30,8 @@ if (age % 2 == 0)
 else
 	{
 		alert("You're a little odd, right now.");
-	}
+	}*/
 
-window.reload();
 
 
 /*CHAPTER 11
