@@ -1,6 +1,28 @@
 /*THESE ENTRIES ARE PRIMARILY FOR PRACTICE STUFF
 RELATED TO "A SMARTER WAY TO LEARN JAVASCRIPT"*/
 
+var animal = "dog";
+
+var question = function()
+{
+	var response = prompt("Guess an animal.");
+	
+	if (response === animal)
+		{
+			console.log("Yipee.");			
+		}
+	
+	if (response !== animal)
+		{
+			console.log("Try again.")
+			question();
+		}
+}
+
+question();
+
+
+/*CHAPTER 10
 var answer = "tail";
 console.log(answer);
 
@@ -14,8 +36,7 @@ if (response == "tail" || response == "Tail" || response == "TAIL")
 else
 	{
 		alert("Nope.");
-	}
-
+	}*/
 
 
 
