@@ -1,6 +1,22 @@
 /*THESE ENTRIES ARE PRIMARILY FOR PRACTICE STUFF
 RELATED TO "A SMARTER WAY TO LEARN JAVASCRIPT"*/
 
+var age = prompt("Enter your age.");
+
+if (age % 2 == 0)
+	{
+		alert("You're currently even.");
+	}
+
+else
+	{
+		alert("You're a little odd, right now.");
+	}
+
+window.reload();
+
+
+/*CHAPTER 11
 var animal = "dog";
 
 var question = function()
@@ -19,7 +35,7 @@ var question = function()
 		}
 }
 
-question();
+question();*/
 
 
 /*CHAPTER 10
